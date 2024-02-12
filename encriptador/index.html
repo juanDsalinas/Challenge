@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="encriptador">
+        <div class="process">
+            <form>
+                <textarea id="mensaje" name="mensaje" rows="16" cols="52" placeholder="Ingrese la frase que deseas encriptar" class="data"></textarea>
+                <!-- <input type="textarea" placeholder="Ingrese la frase que deseas encriptar" class="data"> -->
+                <div class="botones">
+                    <input type="button" value="encriptar" class="btn">
+                    <input type="button" value="desencriptar" class="btn-2" disabled>
+                </div>
+            </form>
+        </div>
+        <div class="results">
+            <div class="show">
+                <img src="./img/p.svg" alt="svg decorativo" class="imagencita">
+                <p class="textico">¡Bienvenido!</p>
+            </div>
+            <div class="copie">
+                <input type="button" value="copie" class="copiar">
+            </div>
+        </div>
+    </div>
+    <section class="pop">
+        <div class="alert">
+            <span class="txt">Copiado en el portapapeles 😊</span>
+            <div class="close">X</div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="#"><div class="caja"></div></a>
+        <a href="#"><div class="caja"></div></a>
+        <a href="#"><div class="caja"></div></a>
+        <a href="#"><div class="caja"></div></a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
