@@ -72,7 +72,7 @@ function encriptar(word){
             break;
         }else {
             if(word[i] === word[i].toUpperCase()){
-                return 'Mayusculas y/o caracteres especiales No admitidos';
+                return 'Mayusculas y/o caracteres especiales NO admitidos';
             }
         }
     }
@@ -115,7 +115,7 @@ function desencriptar(word){
             break;
         }else {
             if(word[i] === word[i].toUpperCase()){
-                return console.log(`Mayuscula No admitidas`);
+                return console.log(`Mayuscula NO admitidas`);
             }
         }
     }
